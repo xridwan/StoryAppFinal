@@ -1,0 +1,37 @@
+Skenario Pengujian:
+
+AuthViewModelTest
+1. Ketika melakukan Login data tidak NULL
+2. Memastikan response Resource.Success
+3. Ketika melakukan Register data tidak NULL
+4. Memastikan response Resource.Success
+
+MainViewModelTest
+1. Memastikan data Story tidak NULL
+2. Memastikan jumlah data sesuai yang diharapkan
+
+StoryMapsViewModelTest
+1. Memastikan data story tidak NULL
+2. Memastikan response Resource.Success
+
+AddViewModelTest
+1. Ketika menambahkan Story data tidak NULL
+2. Memastikan response Resource.Success
+
+StoryRepositoryTest
+Ketika mengambil data dari Internet
+    a. Login
+        1. Memastikan data tidak NULL
+        2. Memastikan pesan response sesuai yang diharapkan
+    b. Register
+        1. Memastikan data tidak NULL
+        2. Memastikan pesan response sesuai yang diharapkan
+    c. Get Story
+        1. Memastikan data tidak NULL
+        2. Memastikan jumlah data sesuai dengan yang diharapkan
+    d. Get Story With Location
+        1. Memastikan data tidak NULL
+        2. Memastikan jumlah data sesuai dengan yang diharapkan
+    e. Upload Image
+        1. Memastikan data tidak NULL
+        2. Memastikan pesan response sesuai yang diharapkan

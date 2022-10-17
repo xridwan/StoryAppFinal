@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.authentication.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="74dp"
+        android:contentDescription="@string/image_register_desc"
+        android:src="@drawable/register_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:alpha="0"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:alpha="1" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_name"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="24dp"
+        android:alpha="0"
+        android:background="@drawable/bg_edittext"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:paddingEnd="16dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:alpha="1"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_email"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:alpha="0"
+        android:background="@drawable/bg_edittext"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingEnd="16dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/et_name"
+        app:layout_constraintStart_toStartOf="@+id/et_name"
+        app:layout_constraintTop_toBottomOf="@+id/et_name"
+        tools:alpha="1"
+        tools:ignore="RtlSymmetry" />
+
+    <com.xridwan.mystoryfinal.ui.utils.CustomEditText
+        android:id="@+id/et_password"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:alpha="0"
+        android:inputType="textPassword"
+        android:paddingEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/et_email"
+        app:layout_constraintStart_toStartOf="@+id/et_email"
+        app:layout_constraintTop_toBottomOf="@+id/et_email"
+        tools:alpha="1"
+        tools:ignore="RtlSymmetry" />
+
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--        android:id="@+id/passwordTextInputLayout"-->
+    <!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:alpha="0"-->
+    <!--        app:boxCornerRadiusBottomEnd="10dp"-->
+    <!--        app:boxCornerRadiusBottomStart="10dp"-->
+    <!--        app:boxCornerRadiusTopEnd="10dp"-->
+    <!--        app:boxCornerRadiusTopStart="10dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/emailTextInputLayout"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/emailTextInputLayout"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/emailTextInputLayout"-->
+    <!--        app:startIconDrawable="@drawable/ic_lock"-->
+    <!--        tools:alpha="1">-->
+
+    <!--        <com.google.android.material.textfield.TextInputEditText-->
+    <!--            android:id="@+id/et_password"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:hint="@string/password"-->
+    <!--            android:inputType="textPassword" />-->
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:alpha="0"
+        android:background="@drawable/bg_button"
+        android:text="@string/register"
+        app:layout_constraintEnd_toEndOf="@+id/et_password"
+        app:layout_constraintStart_toStartOf="@+id/et_password"
+        app:layout_constraintTop_toBottomOf="@+id/et_password"
+        tools:alpha="1" />
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

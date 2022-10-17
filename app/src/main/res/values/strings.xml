@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="login_signup">Please login or Sign up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="story_name">Story Name</string>
+    <string name="log_out">Log out</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="descriptions">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="image_login_desc">image_login_desc</string>
+    <string name="image_register_desc">image_register_desc</string>
+    <string name="image_item_desc">image_item_desc</string>
+    <string name="image_add_desc">image_add_desc</string>
+    <string name="image_capture_desc">image_capture_desc</string>
+    <string name="image_switch_desc">image_switch_desc</string>
+    <string name="image_detail_desc">image_detail_desc</string>
+    <string name="add_story">Add Story</string>
+    <string name="retry">Retry</string>
+    <string name="maps">Maps</string>
+    <string name="location_permission_denied">Location permission not allowed</string>
+    <string name="location_permission_denied_action">Change Setting</string>
+</resources>
